@@ -1,5 +1,5 @@
 {
-  "name": "conf",
+  "name": "@lesenelir/conf",
   "version": "0.0.1",
   "description": "Lesenelir's basic configuration for new projects",
   "main": "index.js",
