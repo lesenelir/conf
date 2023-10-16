@@ -19,7 +19,11 @@
   "author": "lesenelir <hi@lesenelir.me>",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-typescript": "11.1.5",
     "@types/node": "20.8.6",
+    "rollup": "4.1.4",
+    "rollup-plugin-auto-external": "2.0.0",
+    "tslib": "2.6.2",
     "typescript": "5.2.2"
   }
 }
