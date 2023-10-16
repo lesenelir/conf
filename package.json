@@ -1,7 +1,13 @@
 {
   "name": "@lesenelir/conf",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Lesenelir's basic configuration for new projects",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.6.12",
+  "engines": {
+    "node": ">=16.9.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
