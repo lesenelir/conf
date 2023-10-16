@@ -1,0 +1,29 @@
+{
+  "name": "@lesenelir/utils",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "description": "Lesenelir utils package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "node": "node dist/index.js"
+  },
+  "keywords": [
+    "lesenelir",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesenelir/conf/packages/utils"
+  },
+  "author": "lesenelir <hi@lesenelir.me>",
+  "license": "MIT"
+}
