@@ -10,7 +10,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:utils": "pnpm --filter @lesenelir/utils build",
+    "dev:utils": "pnpm --filter @lesenelir/utils dev",
+    "node:utils": "pnpm --filter @lesenelir/utils node"
   },
   "keywords": [
     "lesenelir",
