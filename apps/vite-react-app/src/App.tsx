@@ -1,8 +1,12 @@
+import {Dialog} from '@lesenelir/ui'
+
 function App() {
 
   return (
     <>
-      hello
+      <Dialog>
+        This is a dialog asd
+      </Dialog>
     </>
   )
 }
