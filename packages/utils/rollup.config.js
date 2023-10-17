@@ -8,5 +8,8 @@ export default {
     format: "es",
     sourcemap: true
   },
-  plugins: [autoExternal(), typescript({exclude: ['templates/**']})]
+  plugins: [
+    autoExternal(),
+    typescript()
+  ]
 }
