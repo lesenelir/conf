@@ -1,0 +1,38 @@
+{
+  "name": "@lesenelir/ui",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "description": "Lesenelir ui components package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf tsc"
+  },
+  "keywords": [
+    "lesenelir",
+    "ui components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesenelir/conf/packages/ui"
+  },
+  "author": "lesenelir <hi@lesenelir.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.13",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.3.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}
