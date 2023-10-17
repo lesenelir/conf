@@ -12,7 +12,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf tsc"
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "keywords": [
     "lesenelir",
