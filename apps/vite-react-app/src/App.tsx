@@ -7,6 +7,9 @@ function App() {
       <Dialog>
         This is a dialog asd
       </Dialog>
+      <div className={'bg-amber-200'}>
+        hello vite react app
+      </div>
     </>
   )
 }
