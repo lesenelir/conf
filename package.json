@@ -11,7 +11,11 @@
   "scripts": {
     "build:utils": "pnpm --filter @lesenelir/utils build",
     "dev:utils": "pnpm --filter @lesenelir/utils dev",
-    "node:utils": "pnpm --filter @lesenelir/utils node"
+    "node:utils": "pnpm --filter @lesenelir/utils node",
+    "build:ui": "pnpm --filter @lesenelir/ui build",
+    "dev:ui": "pnpm --filter @lesenelir/ui dev:ui",
+    "build:vite-app": "pnpm --filter @lesenelir/vite-react-app build",
+    "dev:vite-app": "pnpm --filter @lesenelir/vite-react-app dev"
   },
   "keywords": [
     "lesenelir",
