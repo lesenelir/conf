@@ -1,12 +1,14 @@
-import {Dialog} from '@lesenelir/ui'
+import ButtonDemo from './components/ButtonDemo'
+import DialogDemo from './components/DialogDemo'
 
 function App() {
 
   return (
     <>
-      <Dialog>
-        This is a dialog asd
-      </Dialog>
+      <button>click</button>
+      <ButtonDemo/>
+      <DialogDemo/>
+
       <div className={'bg-amber-200'}>
         hello vite react app
       </div>
