@@ -1,5 +1,5 @@
-import ButtonDemo from './components/ButtonDemo'
-import DialogDemo from './components/DialogDemo'
+import ButtonDemo from '@/components/ButtonDemo'
+import DialogDemo from '@/components/DialogDemo'
 
 function App() {
 
