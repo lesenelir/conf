@@ -15,7 +15,13 @@
     "dev:utils": "pnpm --filter @lesenelir/utils dev",
     "dev:ui": "pnpm --filter @lesenelir/ui dev:ui",
     "dev:vite-app": "pnpm --filter @lesenelir/vite-react-app dev",
-    "node:utils": "pnpm --filter @lesenelir/utils node"
+    "node:utils": "pnpm --filter @lesenelir/utils node",
+    "version:ui": "cd packages/ui && npm version patch",
+    "version:utils": "cd packages/utils && npm version patch",
+    "version:all": "pnpm run version:ui && pnpm run version:utils",
+    "publish:ui": "cd packages/ui && npm publish",
+    "publish:utils": "cd packages/utils && npm publish",
+    "publish:all": "pnpm run publish:ui && pnpm run publish:utils"
   },
   "keywords": [
     "lesenelir",
